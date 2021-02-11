@@ -1,47 +1,60 @@
-# _{Template}_
+# _Kanto Pokédex_
 
-#### _{Environment Template}_
+#### _Get stats for any Pokémon in the Kanto region_
 
-#### By _**Jo Miller**_
+#### By _**Jo Miller & Tien Nguyen**_
+
+---
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
-* _JavaScript_
-* _Jest_
-* _webpack_
+* _Bootstrap 4.6.0_
+* _JavaScript ES6_
+* _jQuery 3.5.1_
+* _Node Package Manager 6.14.9_
+* _webpack 4.39.3_
+* _Babel 7.6.4_
+* _eslint 6.3.0_
+* _Jest 24.9.0_
+* _[Pokeapi](https://pokeapi.co/)_
+
+---
 
 ## Description
 
-_{This is a template for setting up a development environment.  This is also a template README.}_
+_Click on the name of any Pokémon from the Kanto region to see its name, height, weight, type, and picture._
+
+---
 
 ## Setup/Installation Requirements
 
+### Installing node.js
+
+* _on OS X Systems: install Node.js through [Homebrew](https://docs.brew.sh/Installation) in terminal with command $ brew install node_
+* _on Windows/Linux systems visit [Node](https://nodejs.org/en/download/) website and download appropriate installer for your OS._
+
+### Setup Instructions
+
 * _Clone this repository to your desktop_
-* _Navigate to top level of the directory_
-* _$ npm install_
-* _$ npm run build_
+* _Navigate to top level of the directory in terminal_
+* _To install dependencies use command $ npm install_
+* _Run command $ npm run build_
 
 ### To Utilize API
 
-* _Create a .env file in your root directory_
-* _{Instructions for getting API key}_
-* _Store your API key in your .env file in the following format: <br> API_KEY=[enter key here with no brackets]_
+* _No API key needed, just use as written._
 
-## Known Bugs
-
-* _{Any known issues}_
-* _{should go here}_
-
-## Specifications
-```
-```
+---
 
 ## License
 
 [MIT](LICENSE.txt)
 
+---
+
 ## Contact Information
 
-_Jo Miller: joannadawnmiller@gmail.com_
+_Jo Miller: joannadawnmiller@gmail.com_ <br>
+_Tien Nguyen: <tien96ng@gmail.com>_
