@@ -1,0 +1,87 @@
+#pokedex-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid;
+  width: 50vw;
+  min-width: 700px;
+  height: 50vh;
+  min-height: 550px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid #950404;
+  background-color: #cc0000;
+  border-width: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#pokedex-grid li {
+  margin-left: 50px;
+}
+
+img {
+  height: 70%;
+}
+
+#title {
+  border: solid #950404;
+  border-width: 5px;
+  width: 50vw;
+  min-width: 700px;
+  text-align: center;
+  background-color: #cc0000;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+
+#stats {
+  text-align: center;
+  position: relative;
+}
+
+#stat-display {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+}
+
+body {
+  background-image: url("https://pbs.twimg.com/media/EkCmzd0WsAAnZoN?format=jpg&name=large");
+  background-size: 500px;
+  font-size: 20px;
+}
+
+li:hover {
+  color: #FDB700;
+  font-size: 30px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FDB700; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
